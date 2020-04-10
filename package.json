@@ -1,0 +1,27 @@
+{
+  "name": "blog-bos",
+  "version": "1.0.0",
+  "description": "pack and store my website data",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+  "config": {
+    "ak": "",
+    "sk": "",
+    "bucket": "keuby"
+  },
+  "author": "Keuby",
+  "license": "ISC",
+  "dependencies": {
+    "@baiducloud/sdk": "^1.0.0-rc.14",
+    "compressing": "^1.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
